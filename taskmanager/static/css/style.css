@@ -126,33 +126,41 @@ a.but:hover { background: #7b21f5; } /* при наведении курсора
     position: absolute;
     background-color: #00698c;
     width: 100%;
-    height: 200px;
+    height: 300px;
     top: 150%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 .fotlogot{
     position: absolute;
-    width: 50px;
-    height: 50px;
-    left: 43%;
-    bottom: 30px;
+    width: 40px;
+    height: 40px;
+    left: 47%;
+    bottom: 100px;
     transform: translate(-50%, -50%);
 }
 .fotlogoth{
     position: absolute;
     width: 30px;
     height: 30px;
-    left: 57%;
-    bottom: 50px;
+    left: 50%;
+    bottom: 110px;
+    transform: translate(-50%, -50%);
+}
+.fotlogotht{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 53%;
+    bottom: 90px;
     transform: translate(-50%, -50%);
 }
 .fotlogo{
     position: absolute;
-    width: 50px;
-    height: 50px;
+    width: 80px;
+    height: 80px;
     left: 50%;
-    bottom: 110px;
+    bottom: 160px;
     transform: translate(-50%, -50%);
 }
 .fot{
@@ -170,13 +178,13 @@ a.but:hover { background: #7b21f5; } /* при наведении курсора
 }
 .poso{
     position: absolute;
-    top: 50%;
+    top: 75%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 .post{
     position: absolute;
-    top: 70%;
+    top: 85%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
