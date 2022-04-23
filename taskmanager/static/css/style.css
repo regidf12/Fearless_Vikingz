@@ -5,12 +5,20 @@
     url("fonts/Florsn35.woff") format("woff"), 
     url("fonts/Florsn35.ttf") format("truetype"); 
     font-style: normal; 
-    font-weight: normal; 
+    font-weight: normal;
+    zoom:100%;
     }
 body{
     font-family: 'Florsn';
     color: #fff;
-    background-color: #131313;
+    background-image: url(images/bkg.jpg);
+    background-attachment: scroll;
+    background-color: #202023;
+    -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100%; /* Современные браузеры */
+    margin: 0;
 }
 .hat{
     color: #fff;
@@ -25,7 +33,7 @@ body{
 }
 .content{
     position: absolute;
-    height: 1000px;
+    height: 5000px;
     width: 100%;
     top:50%;
     left:50%;
@@ -54,7 +62,7 @@ a.but {
     padding: .7em 2em; /* отступ от текста */
     outline: none; /* убирать контур в Mozilla */
     border-radius: 10px;
-    top: 80%;
+    top: 57%;
     left: 50%;
     transform: translate(-50%, -50%);
   } 
@@ -110,14 +118,11 @@ a.but:hover { background: #7b21f5; } /* при наведении курсора
 .txt{
     text-align: center;
     position: absolute;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    font-size: 170px;
-    color: #fff;
-    top: 30%;
+    font-size:170px;
+    top: 46%;
     left: 50%;
     transform: translate(-50%, -50%);
-   }
+}
 .hatter{
     height: 100px;
     width: 1600px;
@@ -127,7 +132,7 @@ a.but:hover { background: #7b21f5; } /* при наведении курсора
     background-color: #00698c;
     width: 100%;
     height: 300px;
-    top: 150%;
+    top:330%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -187,4 +192,43 @@ a.but:hover { background: #7b21f5; } /* при наведении курсора
     top: 85%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+.about{
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.road{
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.team{
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.faq{
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.pin{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
 }
