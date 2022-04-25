@@ -1,24 +1,27 @@
 @font-face {
-    font-family: "Florsn"; 
-    src: url("fonts/Florsn35.eot"); 
-    src: url("fonts/Florsn35.eot?#iefix") format("embedded-opentype"),
-    url("fonts/Florsn35.woff") format("woff"), 
-    url("fonts/Florsn35.ttf") format("truetype"); 
-    font-style: normal; 
+    font-family: "Meta10";
+    src: url("fonts/Meta10.eot");
+    src: url("fonts/Meta10.eot?#iefix") format("embedded-opentype"),
+    url("fonts/Meta10.woff") format("woff"),
+    url("fonts/Meta10.ttf") format("truetype");
+    font-style: normal;
     font-weight: normal;
-    zoom:100%;
+    }
+@font-face {
+    font-family: "Etna12";
+    src: url("fonts/Etna12.otf") format("opentype");
     }
 body{
-    font-family: 'Florsn';
+    font-family: 'Etna12';
     color: #fff;
-    background-image: url(images/bkg.jpg);
-    background-attachment: scroll;
+    background-image: url(/static/img/bgk.png);
     background-color: #202023;
     -moz-background-size: 100%; /* Firefox 3.6+ */
     -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
     -o-background-size: 100%; /* Opera 9.6+ */
     background-size: 100%; /* Современные браузеры */
     margin: 0;
+    zoom:100%;
 }
 .hat{
     color: #fff;
@@ -46,15 +49,18 @@ body{
 }
 a.but {
     font-size: 40px;
+    text-align:center;
     position: absolute;
     color: #fff; /* цвет текста */
     text-decoration: none; /* убирать подчёркивание у ссылок */
     user-select: none; /* убирать выделение текста */
     background: #3191e9; /* фон кнопки */
-    padding: .7em 2em; /* отступ от текста */
+    padding-top: .5em;
+    width:250px;
+    height:75px;
     outline: none; /* убирать контур в Mozilla */
     border-radius: 10px;
-    top: 75%;
+    top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
   } 
@@ -66,7 +72,7 @@ a.but:hover { background: #7b21f5; } /* при наведении курсора
     left: 200px;
     transform: translate(-50%, -50%);
    }
-.lor1:hover{ border-bottom: solid 2px white;}
+.lor1:hover{font-size: 25px;}
 .lor2 {
     font-size: 20px;
     position: absolute;
@@ -74,7 +80,7 @@ a.but:hover { background: #7b21f5; } /* при наведении курсора
     left: 300px;
     transform: translate(-50%, -50%);
    }
-.lor2:hover{ border-bottom: solid 2px white;}
+.lor2:hover{font-size: 24px;}
 .lor3 {
     font-size: 20px;
     position: absolute;
@@ -82,7 +88,7 @@ a.but:hover { background: #7b21f5; } /* при наведении курсора
     left: 400px;
     transform: translate(-50%, -50%);
    }
-.lor3:hover{ border-bottom: solid 2px white;}
+.lor3:hover{font-size: 25px;}
 .lor4 {
     font-size: 20px;
     position: absolute;
@@ -90,28 +96,28 @@ a.but:hover { background: #7b21f5; } /* при наведении курсора
     left: 480px;
     transform: translate(-50%, -50%);
    }
-.lor4:hover{ border-bottom: solid 2px white;}
+.lor4:hover{font-size: 25px;}
 .logogit{
     height: 50px;
     width: 50px;
     position: absolute;
     top: 45%;
-    left: 1440px;
+    left: 1435px;
     transform: translate(-50%, -50%);
 }
 .sor{
     font-size: 20px;
     position: absolute;
-    top: 46%;
+    top: 43%;
     left: 1500px;
     transform: translate(-50%, -50%);
 }
-.sor:hover{ border-bottom: solid 2px white;}
+.sor:hover{font-size: 25px; }
 .txt{
     text-align: center;
     position: absolute;
     font-size:170px;
-    top: 30%;
+    top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -124,7 +130,7 @@ a.but:hover { background: #7b21f5; } /* при наведении курсора
     background-color: #00698c;
     width: 100%;
     height: 300px;
-    top: 5400px;
+    top: 5509px;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -185,11 +191,15 @@ a.but:hover { background: #7b21f5; } /* при наведении курсора
     left: 50%;
     transform: translate(-50%, -50%);
 }
+.contain{
+    width: 100%;
+    height: 1080px;
+}
 .about{
     position: absolute;
     width: 100%;
     height: 1080px;
-    top: 1470px;
+    top: 1580px;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -197,7 +207,7 @@ a.but:hover { background: #7b21f5; } /* при наведении курсора
     position: absolute;
     width: 100%;
     height: 1080px;
-    top: 2550px;
+    top: 2660px;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -205,7 +215,7 @@ a.but:hover { background: #7b21f5; } /* при наведении курсора
     position: absolute;
     width: 100%;
     height: 1080px;
-    top: 3630px;
+    top: 3740px;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -213,7 +223,7 @@ a.but:hover { background: #7b21f5; } /* при наведении курсора
     position: absolute;
     width: 100%;
     height: 1080px;
-    top: 4710px;
+    top: 4820px;
     left: 50%;
     transform: translate(-50%, -50%);
 }
