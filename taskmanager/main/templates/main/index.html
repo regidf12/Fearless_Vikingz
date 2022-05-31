@@ -1,4 +1,5 @@
 {% extends 'main/base.html' %}
+{% load static %}
 
 {% block title %}
 Fearless vikingz
@@ -6,45 +7,89 @@ Fearless vikingz
 
 {% block content %}
 <div class="wrapper">
-<div class="hat">
-    <img class="hatter" src="static/img/hater.png" alt="hat">
-    <a href="#top"><img class="logo" src="static/img/logo.png" alt="logo"></a>
-    <img  class="logogit" src="static/img/logogit.png" alt="logogit">
-    <div class="lor1"><a class="links" href= "#about" >About</a></div>
-    <div class="lor2"><a class="links" href="#roadmap">Roadmap</a></div>
-    <div class="lor3"><a class="links" href="#team">Team</a></div>
-    <div class="lor4"><a class="links" href="#faq">FAQ</a></div>
-    <div class="sor"><a class="links" href="https://github.com/White-prince/Fearless_Vikingz" >Source</a></div>
-</div>
-<div class="content">
-    <div class="contain">
-        <p class="txt">Fearless<br>Vikingz</p>
-        <div class="bor_but"></div>
-        <a class="but" href="https://opensea.io/">Opensea</a>
+    <div class="hat">
+        <img class="hatter" src="{% static 'img/hater.png'%}" alt="hat">
+        <a href="#top"><img class="logo" src="{% static 'img/logo.png'%}" alt="logo"></a>
+        <img  class="logo_git" src="{% static 'img/logogit.png'%}" alt="logogit">
+        <div class="lor1"><a class="links" href= "#about" >About</a></div>
+        <div class="lor2"><a class="links" href="#roadmap">Roadmap</a></div>
+        <div class="lor3"><a class="links" href="#team">Team</a></div>
+        <div class="lor4"><a class="links" href="#faq">FAQ</a></div>
+        <div class="sor"><a class="links" href="https://github.com/White-prince/Fearless_Vikingz" >Source</a></div>
     </div>
-    <div class="about">
-        <a name="about"></a>
-        <div class="pin">About us</div>
+    <div class="content">
+        <div class="contain">
+            <p class="txt">Fearless<br>Vikingz</p>
+            <a class="but" href="https://opensea.io/">Opensea</a>
+        </div>
+        <div class="about">
+            <a name="about"></a>
+            <div class="pin">About</div>
+            <div class="info_about">
+                <p class="info_about_pad">FEARLESS VIKINGZ IS <br>NOT JUST PICTURES</p>
+                <p class="info_about_set">Fearless Vikingz are 10,000 randomly<br>
+                    generatedbest warriors of the nine<br>
+                    worlds, gathered ina place against<br>
+                    a common threat - Ragnarok. By<br>
+                    purchasing each NFT, YOU support<br>
+                    our film projects aimed at showing<br>
+                    people who they are. Join our army,<br>
+                    which does not care what happens<br>
+                    in the future.</p>
+            </div>
+            <div class="pic">
+                <img class="nft_vik_one" src="{% static 'img/577.png'%}" alt="one">
+                <img class="nft_vik_two" src="{% static 'img/582.png'%}" alt="two">
+                <img class="nft_vik_three" src="{% static 'img/583.png'%}" alt="three">
+                <img class="nft_vik_four" src="{% static 'img/585.png'%}" alt="four">
+                <img class="nft_vik_five" src="{% static 'img/587.png'%}" alt="five">
+                <img class="nft_vik_six" src="{% static 'img/597.png'%}" alt="six">
+                <img class="nft_vik_seven" src="{% static 'img/611.png'%}" alt="seven">
+                <img class="nft_vik_eight" src="{% static 'img/619.png'%}" alt="eight">
+                <img class="nft_vik_nine" src="{% static 'img/638.png'%}" alt="nine">
+            </div>
+        </div>
+        <div class="road">
+            <a name="roadmap"></a>
+            <div class="pin">RoadMap</div>
+            <img class="road_map_graf" src="{% static 'img/road_map.png'%}" alt="one">
+            <div>
+                <div class="road_name_pos_one"><p class="name_heal">ASGARD</p>
+                    <p class="text_heal">Collection release<br>
+                        on OpenSea</p>
+                </div>
+                <div class="road_name_pos_two"><p class="name_heal">MIDGARD</p>
+                    <p class="text_heal">Purchase of professional<br>
+                        equipment while waiting<br>
+                        for filming</p>
+                </div>
+                <div class="road_name_pos_three"><p class="name_heal">NIFLHEIM</p>
+                    <p class="text_heal">Creating exclusivemateria<br>
+                        ls for Fearless vikingz<br>
+                        holders</p>
+                </div>
+                <div class="road_name_pos_four"><p class="name_heal">HELHEIM</p>
+                    <p class="text_heal">Creating new NFT<br>
+                        projects for Fearless<br>
+                        vikingz holders</p>
+                </div>
+            </div>
+        </div>
+        <div  class="team">
+            <a name="team"></a>
+            <div class="pin">Team</div>
+        </div>
+        <div class="faq">
+            <a name="faq"></a>
+            <div class="pin">FAQ</div>
+        </div>
     </div>
-    <div class="road">
-        <a name="roadmap"></a>
-        <div class="pin">RoadMap</div>
+    <div class="footer">
+        <img class="fotlogo" src="static/img/logo.png" alt="fotlogo">
+        <a class="lin" href="https://www.instagram.com/fearless_vikingz/"><img class="fotlogot" src="static/img/logoinst.png" alt="fotlogoinst"></a>
+        <a class="lin" href="https://twitter.com/Cryptov73783356"><img class="fotlogoth" src="static/img/logotwt.png" alt="fotlogotwt"></a>
+        <a class="lin" href="https://github.com/White-prince"><img class="fotlogotht" src="static/img/logogit.png" alt="fotlogogit"></a>
+        <div class="fot">© 2022 Fearless Vikingz. All Rights Reserved.</div>
     </div>
-    <div class="team">
-        <a name="team"></a>
-        <div class="pin">Team</div>
-    </div>
-    <div class="faq">
-        <a name="faq"></a>
-        <div class="pin">FAQ</div>
-    </div>
-</div>
-<div class="footer">
-    <img class="fotlogo" src="static/img/logo.png" alt="fotlogo">
-    <a class="lin" href="https://www.instagram.com/fearless_vikingz/"><img class="fotlogot" src="static/img/logoinst.png" alt="fotlogoinst"></a>
-    <a class="lin" href="https://twitter.com/Cryptov73783356"><img class="fotlogoth" src="static/img/logotwt.png" alt="fotlogotwt"></a>
-    <a class="lin" href="https://github.com/White-prince"><img class="fotlogotht" src="static/img/logogit.png" alt="fotlogogit"></a>
-    <div class="fot">© 2022 Fearless Vikingz. All Rights Reserved.</div>
-</div>
 </div>
 {% endblock %}
