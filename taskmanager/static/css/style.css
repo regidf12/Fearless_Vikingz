@@ -179,6 +179,7 @@ a.but:hover { background: #7b21f5; } /* при наведении курсора
     user-select: none;
     text-decoration: none;
     color: #fff;
+    box-shadow: #131313;
 }
 /*Контайнеры*/
 .contain{
@@ -372,7 +373,7 @@ a.but:hover { background: #7b21f5; } /* при наведении курсора
     height: 380px;
     position: absolute;
     top: 30%;
-    left: 16%;
+    left: 13%;
     border-radius: 30px;
 }
 .block_two{
@@ -382,7 +383,7 @@ a.but:hover { background: #7b21f5; } /* при наведении курсора
     height: 380px;
     position: absolute;
     top: 30%;
-    right: 16%;
+    right: 13%;
     border-radius: 30px;
 }
 .block_three{
@@ -411,8 +412,62 @@ a.but:hover { background: #7b21f5; } /* при наведении курсора
     user-select: none;
     text-decoration: none;
     color: #fff;
+    padding-bottom: 5px;
 }
+a.lin_team:hover{color: #ce8e2b}
 .txt_team{
     font-size: 50px;
     text-align: center;
+}
+.img_max{
+    position: absolute;
+    left: 10%;
+}
+.img_andrey{
+    position: absolute;
+    left: 10%;
+}
+/*FAQ*/
+.faq_pos{
+    font-size: 20px;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.faq_txt{
+    border-bottom: solid 2px white;
+    padding-bottom: 20px;
+}
+summary::-webkit-details-marker{display:none;}
+summary::-moz-list-bullet{list-style-type:none;}
+summary::marker{display:none;}
+summary {
+    display:inline-block;
+    padding: .3em .5em .3em .4em;
+    font-size:1.4em;
+    cursor: pointer;
+}
+summary:after {
+    content: "+";
+    margin-left: .3em;
+    display: inline-block;
+    transition: transform .5s;
+}
+details[open] > summary:after {
+    transform: scale(1,-1);
+}
+summary ~ * {
+    padding:0 1em 0 1em;
+}
+details[open] summary ~ *{
+    animation: sweep .5s ease-in-out;
+}
+@keyframes sweep {
+    0%    {opacity: 0;}
+    100%  {opacity: 1;}
+}
+details{
+    display:block;
+    margin-bottom: .5rem;
 }
