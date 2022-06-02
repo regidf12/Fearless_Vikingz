@@ -8,11 +8,14 @@
 }
 /*Шрифты*/
 @font-face {
-    font-family: "Meta10";
-    url("fonts/Meta10.ttf") format("truetype");
-    font-style: normal;
+    font-family: 'Meta';
+    src: local('meta-normal'), local('meta-normal'),
+    url('fonts/meta-normal.woff2') format('woff2'),
+    url('fonts/meta-normal.woff') format('woff'),
+    url('fonts/meta-normal.ttf') format('truetype');
     font-weight: normal;
-    }
+    font-style: normal;
+}
 @font-face {
     font-family: "Etna";
     src: url("fonts/Etna12.otf") format("opentype");
@@ -223,7 +226,7 @@ a.but:hover { background: #7b21f5; } /* при наведении курсора
 /*Текст*/
 .pin{
     position: absolute;
-    color: #ce8e2b;
+    color: #e28f17;
     top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -248,10 +251,11 @@ a.but:hover { background: #7b21f5; } /* при наведении курсора
 }
 .info_about_pad{
     font-size: 72px;
-    padding-bottom: 20px;
+    padding-bottom: 50px;
 }
 .info_about_set{
-    font-size: 32px;
+    font-family: 'Meta';
+    font-size: 36px;
 }
 .pic{
     position: absolute;
@@ -368,27 +372,27 @@ a.but:hover { background: #7b21f5; } /* при наведении курсора
 }
 .block_one{
     padding: 20px;
-    background-color: #74a2cc;
+    background-color: #5aa3cf;
     width: 681px;
     height: 380px;
     position: absolute;
     top: 30%;
-    left: 13%;
+    left: 12%;
     border-radius: 30px;
 }
 .block_two{
     padding: 20px;
-    background-color: #74a2cc;
+    background-color: #5aa3cf;
     width: 681px;
     height: 380px;
     position: absolute;
     top: 30%;
-    right: 13%;
+    right: 12%;
     border-radius: 30px;
 }
 .block_three{
     padding: 20px;
-    background-color: #74a2cc;
+    background-color: #5aa3cf;
     width: 1445px;
     height: 151px;
     position: absolute;
@@ -416,7 +420,7 @@ a.but:hover { background: #7b21f5; } /* при наведении курсора
 }
 a.lin_team:hover{color: #ce8e2b}
 .txt_team{
-    font-size: 50px;
+    font-size: 45px;
     text-align: center;
 }
 .img_max{
@@ -431,7 +435,7 @@ a.lin_team:hover{color: #ce8e2b}
 .faq_pos{
     font-size: 20px;
     position: absolute;
-    top: 55%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
