@@ -10,8 +10,6 @@
 @font-face {
     font-family: 'Meta';
     src: local('meta-normal'), local('meta-normal'),
-    url('fonts/meta-normal.woff2') format('woff2'),
-    url('fonts/meta-normal.woff') format('woff'),
     url('fonts/meta-normal.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
