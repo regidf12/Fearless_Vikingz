@@ -1,0 +1,42 @@
+/*
+Мобильная версия
+*/
+@media screen and (max-width: 1200px)
+{
+
+    .hatter {
+        height: 80px;
+        width: 900px;
+    }
+    .hat {
+        color: #fff;
+        width: 1100px;
+        height: 100px;
+        position: fixed;
+        border-radius: 100px;
+        top: 9%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 1;
+    }
+}
+@media screen and (max-width: 992px)
+{
+
+}
+@media screen and (max-width: 768px)
+{
+
+}
+@media screen and (max-width: 480px)
+{
+
+}
+@media screen and (max-width: 390px)
+{
+
+}
+@media screen and (max-width: 320px)
+{
+
+}

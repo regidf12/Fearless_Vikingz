@@ -262,55 +262,7 @@ a.but:hover { background: #7b21f5; } /* при наведении курсора
     left: 35%;
     transform: translate(-50%, -50%);
 }
-.nft_vik_one{
-    padding: 10px;
-    border-radius: 20px;
-    width: 200px;
-    height: 200px;
-}
-.nft_vik_two{
-    padding: 10px;
-    border-radius: 20px;
-    width: 200px;
-    height: 200px;
-}
-.nft_vik_three{
-    padding: 10px;
-    border-radius: 20px;
-    width: 200px;
-    height: 200px;
-}
-.nft_vik_four{
-    padding: 10px;
-    border-radius: 20px;
-    width: 200px;
-    height: 200px;
-}
-.nft_vik_five{
-    padding: 10px;
-    border-radius: 20px;
-    width: 200px;
-    height: 200px;
-}
-.nft_vik_six{
-    padding: 10px;
-    border-radius: 20px;
-    width: 200px;
-    height: 200px;
-}
-.nft_vik_seven{
-    padding: 10px;
-    border-radius: 20px;
-    width: 200px;
-    height: 200px;
-}
-.nft_vik_eight{
-    padding: 10px;
-    border-radius: 20px;
-    width: 200px;
-    height: 200px;
-}
-.nft_vik_nine{
+.nft_vik{
     padding: 10px;
     border-radius: 20px;
     width: 200px;
