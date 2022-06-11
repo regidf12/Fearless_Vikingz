@@ -18,8 +18,6 @@ You can follow me on my social networks:
 
 This site was created for the NFT project.
 
-## Installation :gear:
-
-## Usege :information_source:
+## Preview :desktop_computer:
 
 Hope this code helps you :crown:
