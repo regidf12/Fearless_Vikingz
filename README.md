@@ -20,7 +20,7 @@ This site was created for the NFT project.
 
 ## Preview :desktop_computer:
 
-![FearlessVikingz]()
+![FearlessVikingz](https://github.com/White-prince/Fearless_Vikingz/blob/main/taskmanager/static/img/pr_f.jpg?raw=true)
 
 ## Installation :gear:
 
