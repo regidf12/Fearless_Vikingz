@@ -26,7 +26,7 @@ This site was created for the NFT project.
 
 If you are cloning a project, run it first, otherwise you can download the source on the release page and skip this step.
 
-    git clone 
+    git clone https://github.com/White-prince/Fearless_Vikingz.git
 
 You will need to install:
 
