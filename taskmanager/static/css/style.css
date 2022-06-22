@@ -95,38 +95,41 @@ body{
     height: 50px;
     width: 50px;
     position: absolute;
-    top: 45%;
-    left: 1435px;
-    transform: translate(-50%, -50%);
-}
-.sor{
-    font-size: 20px;
-    position: absolute;
-    top: 43%;
+    top: 23%;
     left: 1500px;
-    transform: translate(-50%, -50%);
+    transition: 1s;
 }
-.sor:hover{font-size: 25px; }
+.logo_opensea{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 23%;
+    left: 1450px;
+    transition: 1s;
+}
+.logo_git:hover{transform: scale(1.2);}
+.logo_opensea:hover{transform: scale(1.2);}
 /*Кнопка*/
-a.but {
-    font-size: 40px;
+.but_cloud{
     position: relative;
+    top: 73%;
+    left:41%;
+    transition: 1s;
+}
+.but_cloud:hover{transform: scale(1.2);}
+.but {
+    font-size: 40px;
+    position: absolute;
     color: #fff; /* цвет текста */
     text-decoration: none; /* убирать подчёркивание у ссылок */
     user-select: none; /* убирать выделение текста */
-    background: #3191e9; /* фон кнопки */
-    top: 60%;
+    top: 78%;
     left:45%;
-    padding: .3em .4em .6em;
-    width:250px;
-    height: 75px;
     outline: none; /* убирать контур в Mozilla */
-    border-radius: 10px;
-    transform: translate(-50%, -50%);
+    transition: 1s;
   } 
-a.but:hover { background: #7b21f5; } /* при наведении курсора мышки */
 /*Подвал*/
-.footer{
+footer{
     position: absolute;
     background-color: #00698c;
     width: 100%;
