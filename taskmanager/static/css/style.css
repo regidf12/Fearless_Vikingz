@@ -184,6 +184,7 @@ footer{
     text-decoration: none;
     color: #fff;
     box-shadow: #131313;
+    transition: 1s;
 }
 /*Контайнеры*/
 .contain{
