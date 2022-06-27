@@ -1,7 +1,9 @@
 /*
 Основной css файл
 */
-*{
+*,
+*::after,
+*::before{
     margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
@@ -261,9 +263,9 @@ footer{
 }
 .pic{
     position: absolute;
-    width: 800px;
+    width: 610px;
     top: 60%;
-    left: 35%;
+    left: 30%;
     transform: translate(-50%, -50%);
 }
 .nft_vik{
@@ -271,7 +273,9 @@ footer{
     border-radius: 20px;
     width: 200px;
     height: 200px;
+    transition: 1s;
 }
+.nft_vik:hover{transform: scale(1.2);}
 /*Roadmap*/
 .road_map_graf{
     position: absolute;
