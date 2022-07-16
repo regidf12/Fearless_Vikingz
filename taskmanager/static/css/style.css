@@ -24,6 +24,7 @@
 body{
     font-family: 'Etna';
     color: #fff;
+    background-color: #00698c;
     background-image: url(/static/img/bgk.png);
     background-color: #202023;
     -moz-background-size: 100%; /* Firefox 3.6+ */
