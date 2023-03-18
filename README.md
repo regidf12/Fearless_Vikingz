@@ -1,6 +1,6 @@
-# Welcome to White-prince :crown:
+# Welcome to Dive-into-dev  :minidisc:
 
- [![White-prince](https://github.com/Dive-dev/Dive-dev/blob/main/assets/VKHeader2.png?raw=true)](http://white-prince.ru/)
+[![White-prince](https://github.com/Dive-dev/Dive-dev/blob/main/assets/VKHeader2.png?raw=true)](http://white-prince.ru/)
 
 You can follow me on my social networks:
 
@@ -14,7 +14,7 @@ You can follow me on my social networks:
 
 [![Facebook](https://img.shields.io/badge/-Facebook-131313?style=for-the-badge&logo=Facebook)](https://www.facebook.com/profile.php?id=100023988285502)
 
-# White-prince Fearless_Vikingz_Webpage :globe_with_meridians:
+# Fearless_Vikingz_Webpage :globe_with_meridians:
 
 This site was created for the NFT project.
 
