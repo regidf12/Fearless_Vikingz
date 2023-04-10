@@ -1,4 +1,4 @@
-# Welcome to Dive-into-dev  :minidisc:
+# Welcome to Dive-into-dev  :floppy_disk:
 
 [![Dive-into-dev](https://github.com/Dive-dev/Dive-dev/blob/main/assets/dive-into-dev.png?raw=true)]()
 
