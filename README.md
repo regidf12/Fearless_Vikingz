@@ -1,5 +1,3 @@
-# Welcome to Regidf
-
 # Fearless_Vikingz_Webpage :globe_with_meridians:
 
 This site was created for the NFT project.
