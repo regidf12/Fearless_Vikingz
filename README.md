@@ -24,4 +24,3 @@ To start the server:
     
     python manage.py runserver
     
-Hope this code helps you
