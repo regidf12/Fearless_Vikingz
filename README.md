@@ -23,4 +23,5 @@ If the library doesn't install, try updating pip.
 To start the server:
     
     python manage.py runserver
-    
+
+This is all.
